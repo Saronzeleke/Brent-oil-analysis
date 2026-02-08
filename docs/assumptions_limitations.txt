@@ -1,0 +1,248 @@
+ANALYSIS ASSUMPTIONS AND LIMITATIONS
+
+Date: 2/8/2026
+
+DATA-RELATED ASSUMPTIONS
+
+1.1 Price Data Assumptions:
+
+Daily closing prices accurately reflect market conditions
+
+Data is free from systematic recording errors
+
+USD prices appropriately account for currency fluctuations
+
+All relevant price adjustments are incorporated
+
+1.2 Event Data Assumptions:
+
+Selected events are the most significant market influencers
+
+Event dates accurately reflect market impact timing
+
+Event classifications (geopolitical/economic/OPEC) are appropriate
+
+No major unrecorded events significantly impacted prices
+
+METHODOLOGICAL ASSUMPTIONS
+
+2.1 Statistical Assumptions:
+
+Time series properties are consistent within regimes
+
+Change points represent true structural breaks
+
+Bayesian priors are appropriately specified
+
+MCMC convergence indicates reliable inference
+
+2.2 Modeling Assumptions:
+
+Change points affect both mean and variance parameters
+
+The number of change points is unknown but finite
+
+Model residuals follow specified distributions
+
+Parameter changes are instantaneous
+
+KEY LIMITATIONS
+
+3.1 Causality Limitation:
+CRITICAL NOTE: Correlation ≠ Causation
+
+The most important limitation is the distinction between statistical
+correlation and causal impact. Our analysis can identify:
+
+Temporal correlations between events and price changes
+
+Statistical associations between timing and market movements
+
+However, we CANNOT establish:
+
+Definitive causal relationships
+
+Direction of causality
+
+Absence of confounding variables
+
+Counterfactual scenarios
+
+Reasons for this limitation:
+
+Observational data only - no controlled experiments
+
+Multiple simultaneous events often occur
+
+Market anticipation effects (prices move before events)
+
+Unobserved confounding factors
+
+Complex feedback loops in global markets
+
+3.2 Data Limitations:
+
+Period restriction: Data ends September 2022
+
+Frequency limitation: Daily data may miss intraday shocks
+
+Survivorship bias: Only available historical data
+
+Event selection bias: Researcher judgment influences event inclusion
+
+3.3 Model Limitations:
+
+Change point detection sensitivity to parameter choices
+
+Bayesian results depend on prior specifications
+
+Model assumes instantaneous regime changes
+
+Limited ability to detect gradual transitions
+
+Multiple testing concerns with many potential change points
+
+3.4 Interpretation Limitations:
+
+Retrospective analysis only - not predictive
+
+Historical context may not apply to future markets
+
+Global interconnectedness may obscure local effects
+
+Qualitative factors not captured in quantitative model
+
+SPECIFIC CAVEATS
+
+4.1 Temporal Resolution Issues:
+
+Some events may have delayed or anticipatory effects
+
+Gradual policy changes may appear as sudden breaks
+
+Data aggregation may mask short-term volatility
+
+4.2 Market Complexity:
+
+Oil prices influenced by numerous simultaneous factors
+
+Supply-demand dynamics constantly evolving
+
+Speculative trading can obscure fundamental relationships
+
+Long-term trends may dominate short-term events
+
+4.3 External Validity:
+
+Historical patterns may not repeat
+
+Market structure has evolved over 35 years
+
+New factors (renewable energy, EVs) not fully captured
+
+Geopolitical landscape continuously changing
+
+MITIGATION STRATEGIES
+
+5.1 For Correlation/Causation Issue:
+
+Clearly label all findings as correlational
+
+Include explicit disclaimers in reports
+
+Use language like "associated with" not "caused by"
+
+Present multiple potential explanations
+
+5.2 For Model Uncertainty:
+
+Report Bayesian credible intervals
+
+Conduct sensitivity analyses
+
+Compare multiple model specifications
+
+Use model averaging when appropriate
+
+5.3 For Data Limitations:
+
+Acknowledge data constraints upfront
+
+Conduct robustness checks
+
+Use complementary data sources when available
+
+Clearly state temporal boundaries
+
+STAKEHOLDER COMMUNICATION
+
+6.1 Recommended Language:
+Instead of: "Event X caused price change Y"
+Use: "Event X coincided with price change Y"
+Or: "Statistical evidence suggests association between X and Y"
+Or: "Timing correlation observed between X and Y"
+
+6.2 Visual Communication:
+
+Clearly label charts as showing correlations
+
+Include uncertainty intervals on all estimates
+
+Provide context for statistical findings
+
+Avoid definitive causal arrows in diagrams
+
+ETHICAL CONSIDERATIONS
+
+7.1 Responsible Reporting:
+
+Avoid overstating findings
+
+Acknowledge limitations transparently
+
+Consider potential misuse of analysis
+
+Provide balanced interpretation
+
+7.2 Policy Implications:
+
+Analysis should inform, not dictate, policy
+
+Historical patterns inform but don't guarantee future outcomes
+
+Multiple interpretations should be considered
+
+Expert judgment complements statistical analysis
+
+RECOMMENDATIONS FOR FUTURE WORK
+
+8.1 Methodological Improvements:
+
+Incorporate high-frequency data
+
+Develop causal inference methods
+
+Include macroeconomic variables
+
+Implement machine learning approaches
+
+8.2 Data Enhancements:
+
+Extend time period to present
+
+Add complementary datasets
+
+Include sentiment analysis
+
+Incorporate alternative data sources
+
+CONCLUSION
+
+This analysis provides valuable insights into Brent oil price dynamics
+and their temporal association with historical events. However, all
+findings should be interpreted with appropriate caution, recognizing
+the fundamental limitation that statistical correlation does not
+establish causal relationships. The results should be used as one
+input among many in decision-making processes.
+
+END OF ASSUMPTIONS AND LIMITATIONS DOCUMENT
