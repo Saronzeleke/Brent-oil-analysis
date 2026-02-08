@@ -1,0 +1,230 @@
+BRENT OIL PRICE ANALYSIS WORKFLOW
+
+Document Version: 1.0
+Date: 2/8/2026
+Author:Saron Zeleke
+
+PROJECT INITIATION
+
+1.1 Define Objectives:
+
+Identify structural breaks in Brent oil prices (1987-2022)
+
+Correlate breaks with historical events
+
+Provide insights for market stakeholders
+
+1.2 Stakeholder Identification:
+
+Energy analysts
+
+Portfolio managers
+
+Policy makers
+
+Academic researchers
+
+DATA PREPARATION PHASE
+
+2.1 Data Acquisition:
+
+Source: Historical Brent crude prices dataset
+
+Period: May 20, 1987 to September 30, 2022
+
+Frequency: Daily closing prices
+
+2.2 Data Quality Assessment:
+
+Check for missing values
+
+Validate date formats
+
+Identify outliers
+
+Verify data completeness
+
+2.3 Event Data Compilation:
+
+Research geopolitical events (wars, conflicts)
+
+Document OPEC decisions (production changes)
+
+Record economic shocks (financial crises)
+
+Minimum: 10-15 key events with dates
+
+EXPLORATORY DATA ANALYSIS
+
+3.1 Initial Visualization:
+
+Time series plot of raw prices
+
+Distribution analysis
+
+Rolling statistics calculation
+
+3.2 Trend Analysis:
+
+Long-term trend identification
+
+Seasonal decomposition (if applicable)
+
+Multiple time frame analysis (daily, monthly, yearly)
+
+3.3 Stationarity Testing:
+
+Augmented Dickey-Fuller (ADF) test
+
+Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test
+
+Differencing requirements assessment
+
+3.4 Volatility Analysis:
+
+Daily returns calculation
+
+Volatility clustering detection
+
+ARCH/GARCH effects testing
+
+Leverage effects examination
+
+MODELING PHASE
+
+4.1 Change Point Model Selection:
+
+Bayesian change point detection
+
+PyMC implementation
+
+Model parameter specification
+
+4.2 Model Implementation:
+
+Define prior distributions
+
+Specify likelihood function
+
+Configure Markov Chain Monte Carlo (MCMC) sampler
+
+4.3 Model Diagnostics:
+
+Convergence testing (Gelman-Rubin statistic)
+
+Trace plot examination
+
+Posterior predictive checks
+
+ANALYSIS & INTERPRETATION
+
+5.1 Change Point Identification:
+
+Extract probable change point dates
+
+Calculate uncertainty intervals
+
+Rank change points by probability
+
+5.2 Event Correlation Analysis:
+
+Align change points with historical events
+
+Calculate time lags
+
+Statistical significance testing
+
+5.3 Segment Analysis:
+
+Calculate statistics for each regime
+
+Compare pre/post change parameters
+
+Volatility regime identification
+
+COMMUNICATION PHASE
+
+6.1 Visualization Creation:
+
+Time series with change points
+
+Event impact charts
+
+Statistical summary dashboards
+
+6.2 Report Generation:
+
+Technical documentation
+
+Executive summary
+
+Methodology description
+
+6.3 Stakeholder Presentation:
+
+Key findings summary
+
+Business implications
+
+Risk assessment
+
+VALIDATION & ITERATION
+
+7.1 Sensitivity Analysis:
+
+Model parameter robustness
+
+Prior distribution impact
+
+Event selection sensitivity
+
+7.2 Cross-Validation:
+
+Out-of-sample testing
+
+Model performance metrics
+
+Forecast validation
+
+PROJECT DELIVERABLES
+
+8.1 Documentation:
+
+Analysis workflow document (this document)
+
+Assumptions and limitations
+
+Code documentation
+
+8.2 Data Products:
+
+Cleaned price dataset
+
+Event database
+
+Analysis results
+
+8.3 Code Repository:
+
+Well-commented Python scripts
+
+Jupyter notebooks
+
+Version control history
+
+TIMELINE & MILESTONES
+
+Week 1: Data preparation and EDA
+Week 2: Model development and testing
+Week 3: Analysis and interpretation
+Week 4: Reporting and presentation
+
+SUCCESS METRICS
+
+Statistical significance of detected change points
+
+Logical correlation with historical events
+
+Stakeholder feedback and adoption
+
+Model performance metrics
