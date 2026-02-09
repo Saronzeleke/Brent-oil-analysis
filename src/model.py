@@ -4,6 +4,7 @@ import arviz as az
 import matplotlib.pyplot as plt
 from typing import Tuple, Dict, Optional
 import warnings
+import pandas as pd 
 warnings.filterwarnings('ignore')
 
 class BayesianChangePointModel:
