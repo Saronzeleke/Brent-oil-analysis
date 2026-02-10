@@ -56,9 +56,9 @@ Birhan_Energies_Brent_Oil_Project/
 
 ├── docs/
 
-│   ├── analysis_workflow.md           # Analysis methodology and assumptions
+│   ├── analysis_workflow.docx          # Analysis methodology and assumptions
 
-│   ├── final_report.pdf               # Comprehensive analysis report
+│   ├── assumptions_limitations.txt 
 
 │   └── screenshots/                   # Dashboard screenshots
 
