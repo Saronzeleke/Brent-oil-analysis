@@ -417,7 +417,8 @@ npm start
 
 Dashboard Overview
 
-![1d](docs\screenshots/1d.png)
+![1d](docs/screenshots/1d.png)
+
 ![2d](docs\screenshots/2d.png)
 ![3d](docs\screenshots/3d.png)
 ![4d](docs\screenshots/4d.png)
